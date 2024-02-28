@@ -24,6 +24,24 @@ const counterReducer = (state = initialState, action) => {
 
 // ! redux store
 const store = createStore(counterReducer);
+const count = document.getElementById('count');
 
-// show count in the UI
-document.getElementById('count').innerText = store.getState().count;
+// initially show the state to the UI
+count.innerText = store.getState().count;
+
+// subscribe the store to show the latest state
+store.subscribe(() => {
+	// update the state into the UI
+	count.innerText = store.getState().count;
+});
+
+// ! increment counter
+document.getElementById('increment-btn').addEventListener('click', function () {
+	// dispatch action
+	store.dispatch({ type: INCREMENT });
+});
+
+// ! decrement counter
+document.getElementById('decrement-btn').addEventListener('click', function () {
+	store.dispatch({ type: DECREMENT });
+});
