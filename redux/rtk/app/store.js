@@ -8,7 +8,9 @@ import counterReducer, {
 
 // UI elements
 const count = document.getElementById('count');
+const dynamicCount = document.getElementById('dynamic-count');
 const input = document.getElementById('num-input');
+const dynamicInput = document.getElementById('dynamic-num-input');
 
 // created the store
 const store = configureStore({
@@ -17,7 +19,9 @@ const store = configureStore({
 	},
 });
 
+// show initial state
 count.innerText = store.getState().counter.count;
+dynamicCount.innerText = 0;
 
 // subscribe to events
 store.subscribe(() => {
