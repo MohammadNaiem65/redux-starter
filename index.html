@@ -11,11 +11,15 @@
 		<main
 			id="app"
 			class="h-[100vh] w-full bg-black text-white flex justify-center items-center">
-			<section>
+			<section class="flex flex-col items-center">
 				<h1 id="count" class="text-5xl mb-3 text-center"></h1>
 				<h2 class="text-3xl font-semibold">A Core Redux App Example</h2>
 
-				<div class="w-fit mx-auto mt-5 space-x-5">
+				<input
+					id="num-input"
+					class="w-72 h-8 mt-5 px-3 bg-slate-700 text-slate-400 rounded" />
+
+				<div class="w-fit mt-5 space-x-5">
 					<button
 						id="increment-btn"
 						class="px-3 py-1 border-2 font-semibold rounded hover:bg-white hover:text-black duration-300">

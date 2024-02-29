@@ -16,8 +16,11 @@ const counterSlice = createSlice({
 		decrement: (state, action) => {
 			state.count--;
 		},
+		dynamicIncrement: (state, action) => {
+			state.count += action.payload;
+		},
 	},
 });
 
 export default counterSlice.reducer;
-export const { increment, decrement } = counterSlice.actions;
+export const { increment, decrement, dynamicIncrement } = counterSlice.actions;

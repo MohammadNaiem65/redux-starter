@@ -1,9 +1,14 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-import counterReducer, { decrement, increment } from '../counter/counterSlice';
+import counterReducer, {
+	decrement,
+	dynamicIncrement,
+	increment,
+} from '../counter/counterSlice';
 
 // UI elements
 const count = document.getElementById('count');
+const input = document.getElementById('num-input');
 
 // created the store
 const store = configureStore({
@@ -20,7 +25,15 @@ store.subscribe(() => {
 });
 
 document.getElementById('increment-btn').addEventListener('click', () => {
-	store.dispatch(increment());
+	// get the new value
+	const inputValue = parseInt(input.value);
+
+	// set the value to 0
+	input.value = '';
+
+	inputValue
+		? store.dispatch(dynamicIncrement(inputValue))
+		: store.dispatch(increment());
 
 	count.innerText = store.getState().counter.count;
 });
