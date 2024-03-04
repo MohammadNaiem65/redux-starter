@@ -1,69 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Redux Starter</title>
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body>
-		<main>
-			<section
-				id="app"
-				class="h-[100vh] w-full bg-black text-white flex justify-center items-center">
-				<section
-					class="w-full h-full px-20 flex justify-between items-center">
-					<section class="flex flex-col items-center">
-						<h1 id="count" class="text-5xl mb-3 text-center"></h1>
-						<h2 class="text-3xl font-semibold">
-							A Core Redux App Example
-						</h2>
-						<input
-							id="num-input"
-							class="w-72 h-8 mt-5 px-3 bg-slate-700 text-slate-400 rounded" />
-						<div class="w-fit mt-5 space-x-5">
-							<button
-								id="increment-btn"
-								class="px-3 py-1 border-2 font-semibold rounded hover:bg-white hover:text-black duration-300">
-								Increment
-							</button>
-							<button
-								id="decrement-btn"
-								class="px-3 py-1 border-2 font-semibold rounded hover:bg-white hover:text-black duration-300">
-								Decrement
-							</button>
-						</div>
-					</section>
-					<section class="flex flex-col items-center">
-						<h1
-							id="dynamic-count"
-							class="text-5xl mb-3 text-center"></h1>
-						<h2 class="text-3xl font-semibold">
-							A Redux Toolkit App Example
-						</h2>
-						<input
-							id="dynamic-num-input"
-							class="w-72 h-8 mt-5 px-3 bg-slate-700 text-slate-400 rounded" />
-						<div class="w-fit mt-5 space-x-5">
-							<button
-								id="dynamic-increment-btn"
-								class="px-3 py-1 border-2 font-semibold rounded hover:bg-white hover:text-black duration-300">
-								Increment
-							</button>
-							<button
-								id="dynamic-decrement-btn"
-								class="px-3 py-1 border-2 font-semibold rounded hover:bg-white hover:text-black duration-300">
-								Decrement
-							</button>
-						</div>
-					</section>
-				</section>
-			</section>
-
-			<section id="react"></section>
-		</main>
-
-		<script type="module" src="/src/main.jsx"></script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
