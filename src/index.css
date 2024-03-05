@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .tag {
+        @apply px-4 py-1 rounded-full cursor-pointer capitalize
+    }
+
+    .selected-tag {
+        @apply tag bg-blue-600 text-white font-semibold
+    }
+
+    .unselected-tag {
+        @apply tag bg-blue-100 text-blue-600 
+    }
+}

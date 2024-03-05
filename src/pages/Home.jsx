@@ -1,7 +1,9 @@
+import Tags from '../components/Tags';
+
 export default function Home() {
-    return (
-        <section>
-            home
-        </section>
-    );
+	return (
+		<>
+			<Tags />
+		</>
+	);
 }
