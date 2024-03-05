@@ -14,4 +14,16 @@
     .unselected-tag {
         @apply tag bg-blue-100 text-blue-600 
     }
+
+    .pagination {
+        @apply px-4 py-1 rounded-full
+    }
+
+    .active-page {
+        @apply pagination bg-blue-600 text-white
+    }
+
+    .inactive-page {
+        @apply pagination bg-blue-100 text-blue-600
+    }
 }
