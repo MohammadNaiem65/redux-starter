@@ -5,7 +5,12 @@ const apiSlice = createApi({
 	baseQuery: fetchBaseQuery({
 		baseUrl: 'http://localhost:9000/',
 	}),
-	endpoints: (builder) => ({}),
+	endpoints: (builder) => ({
+		getVideos: builder.query({
+			query: () => '/videos',
+		}),
+	}),
 });
 
 export default apiSlice;
+export const { useGetVideosQuery } = apiSlice;

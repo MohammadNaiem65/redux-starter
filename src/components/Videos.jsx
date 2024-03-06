@@ -1,17 +1,28 @@
+import { useGetVideosQuery } from '../features/apiSlice/apiSlice';
+import Error from './Error';
 import Video from './Video';
 
 export default function Videos() {
+	const { data: videos, isError, error } = useGetVideosQuery();
+
 	return (
 		<section className='pt-12'>
 			<section className='pt-12'>
 				<div className='grid grid-cols-12 gap-4 max-w-7xl mx-auto px-5 lg:px-0 min-h-[300px]'>
 					{/* <!-- single video --> */}
-					<Video />
+					{videos?.length > 0 &&
+						videos.map((video) => <Video key={video.id} />)}
 
 					{/* <!-- error section --> */}
-					<div className='w-fit px-3 col-span-12 text-red-500 capitalize bg-red-200 rounded'>
-						some error happened
-					</div>
+					{isError && (
+						<Error
+							message={
+								error?.message
+									? error?.message
+									: 'An unknown error occurred!'
+							}
+						/>
+					)}
 				</div>
 			</section>
 		</section>
