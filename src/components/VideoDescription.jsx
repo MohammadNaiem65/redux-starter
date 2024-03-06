@@ -1,6 +1,8 @@
+import { deleteImg, editImg } from '../assets';
+
 export default function VideoDescription() {
 	return (
-		<div>
+		<section>
 			<h1 className='text-lg font-semibold tracking-tight text-slate-800'>
 				Some video title
 			</h1>
@@ -9,30 +11,32 @@ export default function VideoDescription() {
 					Uploaded on 23 Nov 2022
 				</h2>
 
-				{/* <!-- like/unlike --> */}
+				{/* <!-- delete/edit --> */}
 				<div className='flex gap-10 w-48'>
 					<div className='flex gap-1'>
 						<div className='shrink-0'>
 							<img
 								className='w-5 block'
-								src='./assets/like.svg'
-								alt='Like'
+								src={editImg}
+								alt='Edit'
 							/>
 						</div>
-						<div className='text-sm leading-[1.7142857] text-slate-600'>
-							100K
-						</div>
+						<a
+							href='add-video.html'
+							className='text-sm leading-[1.7142857] text-slate-600'>
+							Edit
+						</a>
 					</div>
 					<div className='flex gap-1'>
 						<div className='shrink-0'>
 							<img
 								className='w-5 block'
-								src='./assets/unlike.svg'
-								alt='Unlike'
+								src={deleteImg}
+								alt='Delete'
 							/>
 						</div>
-						<div className='text-sm leading-[1.7142857] text-slate-600'>
-							100K
+						<div className='text-sm leading-[1.7142857] text-slate-600 cursor-pointer'>
+							Delete
 						</div>
 					</div>
 				</div>
@@ -41,6 +45,6 @@ export default function VideoDescription() {
 			<div className='mt-4 text-sm text-[#334155] dark:text-slate-400'>
 				Some video description here
 			</div>
-		</div>
+		</section>
 	);
 }
