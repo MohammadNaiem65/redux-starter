@@ -10,7 +10,7 @@ export default function Video({ video }) {
 					<Link to={`/video/${id}`}>
 						<img
 							src={thumbnail}
-							className='w-full h-auto'
+							className='w-full h-[10.875rem] object-cover'
 							alt={title}
 						/>
 					</Link>

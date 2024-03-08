@@ -26,11 +26,11 @@ export default function Navbar() {
 							alt='Search'
 						/>
 					</div>
-					<a
-						href='add-video.html'
+					<Link
+						to='/add-video'
 						className='inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-indigo-500'>
 						+ Add Video
-					</a>
+					</Link>
 				</div>
 			</div>
 		</nav>
