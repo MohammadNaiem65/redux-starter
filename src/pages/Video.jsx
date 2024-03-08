@@ -25,7 +25,7 @@ export default function Video() {
 					<VideoGrid video={video} />
 
 					{/* <!-- related videos --> */}
-					<RelatedVideos videoId={videoId} />
+					<RelatedVideos title={video?.title} />
 				</div>
 			</div>
 		</section>

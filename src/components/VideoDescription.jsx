@@ -1,7 +1,8 @@
+import { Link } from 'react-router-dom';
 import { deleteImg, editImg } from '../assets';
 
 export default function VideoDescription({ video }) {
-	const { title, description, date } = video;
+	const { id, title, description, date } = video;
 
 	return (
 		<section>
@@ -15,7 +16,7 @@ export default function VideoDescription({ video }) {
 
 				{/* <!-- delete/edit --> */}
 				<div className='flex gap-10 w-48'>
-					<div className='flex gap-1'>
+					<Link to={`/edit-video/${id}`} className='flex gap-1'>
 						<div className='shrink-0'>
 							<img
 								className='w-5 block'
@@ -23,12 +24,10 @@ export default function VideoDescription({ video }) {
 								alt='Edit'
 							/>
 						</div>
-						<a
-							href='add-video.html'
-							className='text-sm leading-[1.7142857] text-slate-600'>
+						<p className='text-sm leading-[1.7142857] text-slate-600'>
 							Edit
-						</a>
-					</div>
+						</p>
+					</Link>
 					<div className='flex gap-1'>
 						<div className='shrink-0'>
 							<img
