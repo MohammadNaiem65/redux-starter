@@ -20,15 +20,15 @@ const routes = createBrowserRouter([
 				element: <Home />,
 			},
 			{
-				path: '/video/:id',
+				path: '/video/:videoId',
 				element: <Video />,
 			},
 			{
-				path: '/add-video/:id',
+				path: '/add-video',
 				element: <AddVideo />,
 			},
 			{
-				path: '/edit-video/:id',
+				path: '/edit-video/:videoId',
 				element: <AddVideo />,
 			},
 		],
