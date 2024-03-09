@@ -1,7 +1,11 @@
 import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import { useAddVideoMutation } from '../features/apiSlice/apiSlice';
+import {
+	useAddVideoMutation,
+	useEditVideoMutation,
+	useGetVideoQuery,
+} from '../features/apiSlice/apiSlice';
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Error from '../components/Error';
@@ -12,7 +16,24 @@ export default function AddVideo() {
 	const id = path[2];
 	const navigate = useNavigate();
 
-	const [addVideo, { isSuccess, isError, error }] = useAddVideoMutation();
+	const [addVideo, { isSuccess, isError: addingIsErr, error: addingErr }] =
+		useAddVideoMutation();
+	const [
+		editVideo,
+		{
+			isSuccess: editVideoSuccess,
+			isError: editVideoIsError,
+			error: editError,
+		},
+	] = useEditVideoMutation();
+	const {
+		data: video,
+		isLoading,
+		isError: gettingIsError,
+		error: gettingError,
+	} = useGetVideoQuery(id, { skip: !id });
+
+	console.log(video);
 
 	const [data, setData] = useState({
 		title: '',
@@ -29,14 +50,60 @@ export default function AddVideo() {
 		e.preventDefault();
 		``;
 
-		addVideo(data);
+		video?.id ? editVideo({ videoId: video.id, data }) : addVideo(data);
 	};
 
 	useEffect(() => {
-		if (isSuccess) {
+		if (isSuccess || editVideoSuccess) {
 			navigate('/');
 		}
-	}, [navigate, isSuccess]);
+
+		return () => {};
+	}, [navigate, isSuccess, editVideoSuccess]);
+
+	useEffect(() => {
+		if (isLoading) {
+			setData({
+				title: 'Loading...',
+				description: 'Loading...',
+				author: 'Loading...',
+				date: 'Loading...',
+				duration: 'Loading...',
+				views: 'Loading...',
+				link: 'Loading...',
+				thumbnail: 'Loading...',
+			});
+		}
+
+		return () => {};
+	}, [isLoading]);
+
+	useEffect(() => {
+		if (video?.id) {
+			setData({
+				title: video.title,
+				description: video.description,
+				author: video.author,
+				date: video.date,
+				duration: video.duration,
+				views: video.views,
+				link: video.link,
+				thumbnail: video.thumbnail,
+			});
+		}
+
+		return () => {};
+	}, [
+		video?.id,
+		video?.title,
+		video?.description,
+		video?.author,
+		video?.date,
+		video?.duration,
+		video?.views,
+		video?.link,
+		video?.thumbnail,
+	]);
 
 	return (
 		<section className='pt-6 pb-20 min-h-[calc(100vh_-_157px)]'>
@@ -252,7 +319,31 @@ export default function AddVideo() {
 								</div>
 
 								{/* show error */}
-								{isError && <Error message={error.message} />}
+								{addingIsErr && (
+									<Error message={addingErr.message} />
+								)}
+
+								{gettingIsError && (
+									<Error
+										className='mx-auto'
+										message={
+											gettingError?.message
+												? gettingError.message
+												: 'Uncaught error happened while getting video data!'
+										}
+									/>
+								)}
+
+								{editVideoIsError && (
+									<Error
+										className='mx-auto'
+										message={
+											editError?.message
+												? editError.message
+												: 'Uncaught error happened while editing video data!'
+										}
+									/>
+								)}
 
 								<div className='px-4 py-3 bg-gray-50 text-right sm:px-6'>
 									<button

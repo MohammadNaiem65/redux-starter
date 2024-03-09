@@ -31,7 +31,7 @@ export default function Video({ video }) {
 
 					<div className='flex flex-col'>
 						<Link to={`/video/${id}`}>
-							<p className='text-slate-900 text-sm font-semibold'>
+							<p className='text-slate-900 text-sm font-semibold line-clamp-2'>
 								{title}
 							</p>
 						</Link>

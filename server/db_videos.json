@@ -1,114 +1,125 @@
 {
-	"videos": [
-		{
-			"id": 1,
-			"title": "যে ১০ টি ভুল বিগিনার রিয়্যাক্ট ডেভেলপাররা করে থাকেন",
-			"description": "আপনারা যারা বিগিনার হিসেবে রিয়্যাক্ট জেস নিয়ে কাজ করা শুরু করেছেন, তারা রিয়্যাক্ট এর বেশ কিছু কনসেপ্ট ঠিক মতো আয়ত্ত না করতে পারার কারণে বিচিত্র কিছু সমস্যার সম্মুখীন হন এবং শেষ পর্যন্ত বুঝতে না পেরে হতাশ হয়ে পড়েন। তাদের জন্যই এই ভিডিওটি। এই ভিডিওতে আমি এমন ১০টি সমস্যার কথা তুলে ধরেছি যেগুলো বিগিনার হিসেবে আপনারা অহরহ সম্মুখীন হবেন। আশা করি ভিডিওটি দেখলে আপনাদের এই সমস্যাগুলো নিয়ে আর কনফিউশন থাকবেনা।",
-			"author": "Learn with Sumit",
-			"date": "May 10, 2022",
-			"duration": "10:12",
-			"views": "2.1k",
-			"link": "https://www.youtube-nocookie.com/embed/6O4s7v28nlw",
-			"thumbnail": "https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg"
-		},
-		{
-			"id": 2,
-			"title": "VS Code Snippets - Boost your productivity with User Snippets",
-			"description": "আমরা যখন Visual Studio Code Editor এ কাজ করি তখন অহরহ ব্যবহৃত কোড ব্লক গুলো আমাদের কে বারবার টাইপ করতে হয় এবং সামগ্রিকভাবে চিন্তা করলে এরকম ছোট ছোট ম্যনুয়াল কাজ আমাদের productivity অনেকাংশেই কমিয়ে দেয়। VS Code এর বিল্ট ইন ইউজার স্নিপেট ফিচারের মাধ্যমে আমরা কমন কাজগুলো স্নিপেট আকারে সাজিয়ে রেখে দিতে পারি এবং শর্টকাট কমান্ডের মাধ্যমে বড় বড় কোড ব্লক গুলো নিয়ে আসতে পারি। এই ভিডিওতে আপনারা এটাই জানতে পারবেন যে কিভাবে আমরা Visual Studio Code Editor এ কাস্টম স্নিপেট লিখতে পারি।",
-			"author": "Learn with Sumit",
-			"date": "April 25, 2022",
-			"duration": "10:12",
-			"views": "2.1k",
-			"link": "https://www.youtube-nocookie.com/embed/N-U6AVcIPy4",
-			"thumbnail": "https://i3.ytimg.com/vi/N-U6AVcIPy4/maxresdefault.jpg"
-		},
-		{
-			"id": 3,
-			"title": "Tailwind CSS 3 tutorial - Upgrade to Tailwind 3 | Tailwind CSS Bangla Tutorial",
-			"description": "Tailwind CSS v3.0 came with incredible performance gains, huge workflow improvements, and a seriously ridiculous number of new features. In this tutorial - I have tried to explain different new features of Tailwind CSS version 3, how to install tailwind css 3, how to upgrade from tailwind v2 to v3 etc.",
-			"author": "Learn with Sumit",
-			"date": "March 11, 2022",
-			"duration": "10:12",
-			"views": "2.1k",
-			"link": "https://www.youtube-nocookie.com/embed/4M7D3O2XX4o",
-			"thumbnail": "https://i3.ytimg.com/vi/4M7D3O2XX4o/maxresdefault.jpg"
-		},
-		{
-			"id": 4,
-			"title": "Debounce Function in JavaScript - JavaScript Job Interview question",
-			"description": "In this video, I have explained about the debounce function in JavaScript. This is a common question interviewers ask at Job Interviews. If you watch this video carefully, you will understand what is debounce and how to handle it with custom debounce function.",
-			"author": "Learn with Sumit",
-			"date": "Jan 06, 2022",
-			"duration": "10:12",
-			"views": "2.1k",
-			"link": "https://www.youtube-nocookie.com/embed/dD9O8DnIBj4",
-			"thumbnail": "https://i3.ytimg.com/vi/dD9O8DnIBj4/maxresdefault.jpg"
-		},
-		{
-			"id": 5,
-			"title": "SASS Tutorial in English - Overview of SASS",
-			"description": "In this video, I have given a high level overview of popular CSS Pre-processor SASS which helps us managing our styles at scale. If you have a basic understanding of CSS & JavaScript, this 10 mins SASS Tutorial will help you getting started with SASS.",
-			"author": "Learn with Sumit",
-			"date": "Nov 22, 2021",
-			"duration": "10:12",
-			"views": "2.1k",
-			"link": "https://www.youtube-nocookie.com/embed/4tV1Mfi4fMA",
-			"thumbnail": "https://i3.ytimg.com/vi/4tV1Mfi4fMA/maxresdefault.jpg"
-		},
-		{
-			"id": 6,
-			"title": "React Router DOM v6 Bangla Tutorial - Breaking Changes - React Router 6 vs 5",
-			"description": "In this React Router DOM v6 Bangla tutorial, you will learn how to install react router dom 6, what are the breaking changes in react router 6, difference between react router 6 vs 5, how to upgrade from react router v5 to react router v6. ",
-			"author": "Learn with Sumit",
-			"date": "Nov 08, 2021",
-			"duration": "10:12",
-			"views": "2.1k",
-			"link": "https://www.youtube-nocookie.com/embed/34tjWL9wi4g",
-			"thumbnail": "https://i3.ytimg.com/vi/34tjWL9wi4g/maxresdefault.jpg"
-		},
-		{
-			"id": 7,
-			"title": "Tailwind CSS Tutorial Bangla - Introduction to Tailwind CSS",
-			"description": "Tailwind is a utility-first CSS framework to rapidly build modern websites without ever leaving your HTML. In this Tailwind CSS tutorial, I have given a short introduction and overview of Tailwind CSS in Bangla language. Also, I have explained, why Tailwind vs Bootstrap debate should be stopped as both are useful in their own ways.",
-			"author": "Learn with Sumit",
-			"date": "Oct 15, 2021",
-			"duration": "10:12",
-			"views": "2.1k",
-			"link": "https://www.youtube-nocookie.com/embed/smDa6hoxLKI",
-			"thumbnail": "https://i3.ytimg.com/vi/smDa6hoxLKI/maxresdefault.jpg"
-		},
-		{
-			"title": "Can MODI’s GOLDEN TEAM turn India into an ECONOMIC SUPERPOWER by 2047? : Economic Case Study",
-			"description": "Hi everybody,\nI have a question for you. Do you believe India can become a superpower? Do you believe we could beat China to become the manufacturing powerhouse of the world? If yes, then you would know that in the past 10 years, the government of India has taken some serious steps to build the nation that we all aspire to live in! A nation that stands as the epitome of growth power and development! A nation that can forget its horrific past of being oppressed and poor and look at itself as a dominating force in the world economy! And this was a historic moment for India when our PM delivered a speech to the US Congress!",
-			"author": "Think School",
-			"date": "Mar 6, 2024",
-			"duration": "23:47",
-			"views": "461.98k",
-			"link": "https://youtu.be/hjVama9Id8M?si=nbohhvUg6RIB1qrR",
-			"thumbnail": "https://i.ytimg.com/vi/hjVama9Id8M/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLCkbYGwTNtC57_ikcSMuyiFlgf8BQ",
-			"id": 8
-		},
-		{
-			"title": "আপনার ফোকাস কোথায়? | Control your Dopamine | Dopamine Detox Explained",
-			"description": "আপনার ফোকাস কোথায়? | Control your Dopamine | Dopamine Detox Explained \n\nFor business, Contact: voiceofdhaka.com.bd@gmail.com\n\nControl your Dopamine | Dopamine Detox Explained \n----------------------------------------------------------------------------\n\nকম্পিউটার ম্যানিয়ার নতুন শাখা এখন সর্ববৃহত শপিং মল যমুনা ফিউচার পার্কে। আগামী ৮ই সেপ্টেম্বর উদ্বোধন হতে যাচ্ছে নতুন শাখা। এই দিনে থাকছে বিশেষ আয়োজন, ল্যাপটপ গিভএ্যাওয়ে, গেম শো, ইনস্ট্যান্ট ডিসকাউন্ট সহ আরও অনেক কিছু। উপস্থিত থাকছে আমাদের সবার প্রিয় পিসি বিল্ডার বাংলাদেশ এর অনন্য জামান। আরও থাকছে ৮ থেকে ২২ সেপ্টেম্বর পর্যন্ত ল্যাপটপ কিনে ২৫ হাজার টাকা পর্যন্ত ডিসকাউন্ট পাবার সুযোগ। বিস্তারিত দেখুন \\ কমপিউটার ম্যানিয়ার পেজ ও ইউটিউব চ্যানেলে।\n\nStore : Dhaka Flagship Branch, Bashundhora city shopping complex Level #5 Block B , Shop# 3,4 Bashundhara City, Dhaka 1215 Contact No:+8801762000004 (Hotline)\nStore Jamuna Branch, Jamuna Future Park Level #4 Zone -B, Shop No: 4B-024A, Jamuna Future Park, Contact No:+8801762000004 (Hotline)\nOffer Link : https://computermania.com.bd/offers/\nWebsite Link : https://computermania.com.bd/\nYouTube Channel Link :   \n\n / computermaniabd  \nFacebook Page Link :  \n\n / computermaniabd  \n\n----------------------------------------------------------------------------\n\nTo Subscribe to Voice of Dhaka: https://tinyurl.com/y39h9jon \nFollow Voice of Dhaka on Facebook: https://tinyurl.com/yy6yjjm4 \nFollow Voice of Dhaka on Twitter:  \n\n / voice_dhaka  ",
-			"author": "Voice Of Dhaka",
-			"date": "Sep 7, 2023",
-			"duration": "9:54",
-			"views": "375.45k",
-			"link": "https://youtu.be/qvKKcbBZWzA?si=CH9EcuirncEXQBYh",
-			"thumbnail": "\thttps://i.ytimg.com/vi/qvKKcbBZWzA/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLCY66TlWi20dJT_u4nEb7m3zQYADQ",
-			"id": 9
-		},
-		{
-			"title": "ফ্লো স্টেট - আপনার সফলতা নির্ভর করছে যার উপর । What is Flow State | Focus part 2",
-			"description": "ফ্লো স্টেট - আপনার সফলতা নির্ভর করছে যার উপর ।  What is Flow State | Focus part 2\n\nFor business, Contact: voiceofdhaka.com.bd@gmail.com\n\nআপনার ফোকাস কোথায়? | Control your Dopamine | Dopamine Detox Explained  -    \n\n • আপনার ফোকাস কোথায়? | Control your Dop...  \n\n----------------------------------------------------------------------------\n\nTo Subscribe to Voice of Dhaka: https://tinyurl.com/y39h9jon \nFollow Voice of Dhaka on Facebook: https://tinyurl.com/yy6yjjm4 \nFollow Voice of Dhaka on Twitter:  \n\n / voice_dhaka  \n\n-----------------------------------------------------------------------------------\n\nCopyright Disclaimer: From the perspective of the United States of America, under Section 107 of the Copyright Act 1976, allowance is made for \"fair use\" for purposes such as criticism, comment, news reporting, teaching, scholarship and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favour of fair use.\n\nFrom the perspective of Bangladesh, copyright disclaimer under section 72 of the copyright act 2000, allowance is made for fair use for purposes such as criticism, comments, news reporting,  teaching, scholarship and research.",
-			"author": "Voice Of Dhaka",
-			"date": "Mar 7, 2024",
-			"duration": "8:00",
-			"views": "49.2k",
-			"link": "https://www.youtube.com/embed/ThmIv7IT3v4?si=bORC4PfyrlgrUQ4r",
-			"thumbnail": "\thttps://i.ytimg.com/vi/ThmIv7IT3v4/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLDvCG2MIN698y3hCNBNLMJm3tim0Q",
-			"id": 10
-		}
-	]
+  "videos": [
+    {
+      "id": 1,
+      "title": "যে ১০ টি ভুল বিগিনার রিয়্যাক্ট ডেভেলপাররা করে থাকেন",
+      "description": "আপনারা যারা বিগিনার হিসেবে রিয়্যাক্ট জেস নিয়ে কাজ করা শুরু করেছেন, তারা রিয়্যাক্ট এর বেশ কিছু কনসেপ্ট ঠিক মতো আয়ত্ত না করতে পারার কারণে বিচিত্র কিছু সমস্যার সম্মুখীন হন এবং শেষ পর্যন্ত বুঝতে না পেরে হতাশ হয়ে পড়েন। তাদের জন্যই এই ভিডিওটি। এই ভিডিওতে আমি এমন ১০টি সমস্যার কথা তুলে ধরেছি যেগুলো বিগিনার হিসেবে আপনারা অহরহ সম্মুখীন হবেন। আশা করি ভিডিওটি দেখলে আপনাদের এই সমস্যাগুলো নিয়ে আর কনফিউশন থাকবেনা।",
+      "author": "Learn with Sumit",
+      "date": "May 10, 2022",
+      "duration": "10:12",
+      "views": "2.1k",
+      "link": "https://www.youtube-nocookie.com/embed/6O4s7v28nlw",
+      "thumbnail": "https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg"
+    },
+    {
+      "id": 2,
+      "title": "VS Code Snippets - Boost your productivity with User Snippets",
+      "description": "আমরা যখন Visual Studio Code Editor এ কাজ করি তখন অহরহ ব্যবহৃত কোড ব্লক গুলো আমাদের কে বারবার টাইপ করতে হয় এবং সামগ্রিকভাবে চিন্তা করলে এরকম ছোট ছোট ম্যনুয়াল কাজ আমাদের productivity অনেকাংশেই কমিয়ে দেয়। VS Code এর বিল্ট ইন ইউজার স্নিপেট ফিচারের মাধ্যমে আমরা কমন কাজগুলো স্নিপেট আকারে সাজিয়ে রেখে দিতে পারি এবং শর্টকাট কমান্ডের মাধ্যমে বড় বড় কোড ব্লক গুলো নিয়ে আসতে পারি। এই ভিডিওতে আপনারা এটাই জানতে পারবেন যে কিভাবে আমরা Visual Studio Code Editor এ কাস্টম স্নিপেট লিখতে পারি।",
+      "author": "Learn with Sumit",
+      "date": "April 25, 2022",
+      "duration": "10:12",
+      "views": "2.1k",
+      "link": "https://www.youtube-nocookie.com/embed/N-U6AVcIPy4",
+      "thumbnail": "https://i3.ytimg.com/vi/N-U6AVcIPy4/maxresdefault.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Tailwind CSS 3 tutorial - Upgrade to Tailwind 3 | Tailwind CSS Bangla Tutorial",
+      "description": "Tailwind CSS v3.0 came with incredible performance gains, huge workflow improvements, and a seriously ridiculous number of new features. In this tutorial - I have tried to explain different new features of Tailwind CSS version 3, how to install tailwind css 3, how to upgrade from tailwind v2 to v3 etc.",
+      "author": "Learn with Sumit",
+      "date": "March 11, 2022",
+      "duration": "10:12",
+      "views": "2.1k",
+      "link": "https://www.youtube-nocookie.com/embed/4M7D3O2XX4o",
+      "thumbnail": "https://i3.ytimg.com/vi/4M7D3O2XX4o/maxresdefault.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Debounce Function in JavaScript - JavaScript Job Interview question",
+      "description": "In this video, I have explained about the debounce function in JavaScript. This is a common question interviewers ask at Job Interviews. If you watch this video carefully, you will understand what is debounce and how to handle it with custom debounce function.",
+      "author": "Learn with Sumit",
+      "date": "Jan 06, 2022",
+      "duration": "10:12",
+      "views": "2.1k",
+      "link": "https://www.youtube-nocookie.com/embed/dD9O8DnIBj4",
+      "thumbnail": "https://i3.ytimg.com/vi/dD9O8DnIBj4/maxresdefault.jpg"
+    },
+    {
+      "id": 5,
+      "title": "SASS Tutorial in English - Overview of SASS",
+      "description": "In this video, I have given a high level overview of popular CSS Pre-processor SASS which helps us managing our styles at scale. If you have a basic understanding of CSS & JavaScript, this 10 mins SASS Tutorial will help you getting started with SASS.",
+      "author": "Learn with Sumit",
+      "date": "Nov 22, 2021",
+      "duration": "10:12",
+      "views": "2.1k",
+      "link": "https://www.youtube-nocookie.com/embed/4tV1Mfi4fMA",
+      "thumbnail": "https://i3.ytimg.com/vi/4tV1Mfi4fMA/maxresdefault.jpg"
+    },
+    {
+      "id": 6,
+      "title": "React Router DOM v6 Bangla Tutorial - Breaking Changes - React Router 6 vs 5",
+      "description": "In this React Router DOM v6 Bangla tutorial, you will learn how to install react router dom 6, what are the breaking changes in react router 6, difference between react router 6 vs 5, how to upgrade from react router v5 to react router v6. ",
+      "author": "Learn with Sumit",
+      "date": "Nov 08, 2021",
+      "duration": "10:12",
+      "views": "2.1k",
+      "link": "https://www.youtube-nocookie.com/embed/34tjWL9wi4g",
+      "thumbnail": "https://i3.ytimg.com/vi/34tjWL9wi4g/maxresdefault.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Tailwind CSS Tutorial Bangla - Introduction to Tailwind CSS",
+      "description": "Tailwind is a utility-first CSS framework to rapidly build modern websites without ever leaving your HTML. In this Tailwind CSS tutorial, I have given a short introduction and overview of Tailwind CSS in Bangla language. Also, I have explained, why Tailwind vs Bootstrap debate should be stopped as both are useful in their own ways.",
+      "author": "Learn with Sumit",
+      "date": "Oct 15, 2021",
+      "duration": "10:12",
+      "views": "2.1k",
+      "link": "https://www.youtube-nocookie.com/embed/smDa6hoxLKI",
+      "thumbnail": "https://i3.ytimg.com/vi/smDa6hoxLKI/maxresdefault.jpg"
+    },
+    {
+      "title": "Can MODI’s GOLDEN TEAM turn India into an ECONOMIC SUPERPOWER by 2047? : Economic Case Study",
+      "description": "Hi everybody,\nI have a question for you. Do you believe India can become a superpower? Do you believe we could beat China to become the manufacturing powerhouse of the world? If yes, then you would know that in the past 10 years, the government of India has taken some serious steps to build the nation that we all aspire to live in! A nation that stands as the epitome of growth power and development! A nation that can forget its horrific past of being oppressed and poor and look at itself as a dominating force in the world economy! And this was a historic moment for India when our PM delivered a speech to the US Congress!",
+      "author": "Think School",
+      "date": "Mar 6, 2024",
+      "duration": "23:47",
+      "views": "461.98k",
+      "link": "https://youtu.be/hjVama9Id8M?si=nbohhvUg6RIB1qrR",
+      "thumbnail": "https://i.ytimg.com/vi/hjVama9Id8M/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLCkbYGwTNtC57_ikcSMuyiFlgf8BQ",
+      "id": 8
+    },
+    {
+      "title": "আপনার ফোকাস কোথায়? | Control your Dopamine | Dopamine Detox Explained",
+      "description": "আপনার ফোকাস কোথায়? | Control your Dopamine | Dopamine Detox Explained \n\nFor business, Contact: voiceofdhaka.com.bd@gmail.com\n\nControl your Dopamine | Dopamine Detox Explained \n----------------------------------------------------------------------------\n\nকম্পিউটার ম্যানিয়ার নতুন শাখা এখন সর্ববৃহত শপিং মল যমুনা ফিউচার পার্কে। আগামী ৮ই সেপ্টেম্বর উদ্বোধন হতে যাচ্ছে নতুন শাখা। এই দিনে থাকছে বিশেষ আয়োজন, ল্যাপটপ গিভএ্যাওয়ে, গেম শো, ইনস্ট্যান্ট ডিসকাউন্ট সহ আরও অনেক কিছু। উপস্থিত থাকছে আমাদের সবার প্রিয় পিসি বিল্ডার বাংলাদেশ এর অনন্য জামান। আরও থাকছে ৮ থেকে ২২ সেপ্টেম্বর পর্যন্ত ল্যাপটপ কিনে ২৫ হাজার টাকা পর্যন্ত ডিসকাউন্ট পাবার সুযোগ। বিস্তারিত দেখুন \\ কমপিউটার ম্যানিয়ার পেজ ও ইউটিউব চ্যানেলে।\n\nStore : Dhaka Flagship Branch, Bashundhora city shopping complex Level #5 Block B , Shop# 3,4 Bashundhara City, Dhaka 1215 Contact No:+8801762000004 (Hotline)\nStore Jamuna Branch, Jamuna Future Park Level #4 Zone -B, Shop No: 4B-024A, Jamuna Future Park, Contact No:+8801762000004 (Hotline)\nOffer Link : https://computermania.com.bd/offers/\nWebsite Link : https://computermania.com.bd/\nYouTube Channel Link :   \n\n / computermaniabd  \nFacebook Page Link :  \n\n / computermaniabd  \n\n----------------------------------------------------------------------------\n\nTo Subscribe to Voice of Dhaka: https://tinyurl.com/y39h9jon \nFollow Voice of Dhaka on Facebook: https://tinyurl.com/yy6yjjm4 \nFollow Voice of Dhaka on Twitter:  \n\n / voice_dhaka  ",
+      "author": "Voice Of Dhaka",
+      "date": "Sep 7, 2023",
+      "duration": "9:54",
+      "views": "375.45k",
+      "link": "https://www.youtube.com/embed/qvKKcbBZWzA?si=4nVGCoPxw8oXTulx",
+      "thumbnail": "\thttps://i.ytimg.com/vi/qvKKcbBZWzA/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLCY66TlWi20dJT_u4nEb7m3zQYADQ",
+      "id": 9
+    },
+    {
+      "title": "ফ্লো স্টেট - আপনার সফলতা নির্ভর করছে যার উপর । What is Flow State | Focus part 2",
+      "description": "ফ্লো স্টেট - আপনার সফলতা নির্ভর করছে যার উপর ।  What is Flow State | Focus part 2\n\nFor business, Contact: voiceofdhaka.com.bd@gmail.com\n\nআপনার ফোকাস কোথায়? | Control your Dopamine | Dopamine Detox Explained  -    \n\n • আপনার ফোকাস কোথায়? | Control your Dop...  \n\n----------------------------------------------------------------------------\n\nTo Subscribe to Voice of Dhaka: https://tinyurl.com/y39h9jon \nFollow Voice of Dhaka on Facebook: https://tinyurl.com/yy6yjjm4 \nFollow Voice of Dhaka on Twitter:  \n\n / voice_dhaka  \n\n-----------------------------------------------------------------------------------\n\nCopyright Disclaimer: From the perspective of the United States of America, under Section 107 of the Copyright Act 1976, allowance is made for \"fair use\" for purposes such as criticism, comment, news reporting, teaching, scholarship and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favour of fair use.\n\nFrom the perspective of Bangladesh, copyright disclaimer under section 72 of the copyright act 2000, allowance is made for fair use for purposes such as criticism, comments, news reporting,  teaching, scholarship and research.",
+      "author": "Voice Of Dhaka",
+      "date": "Mar 7, 2024",
+      "duration": "8:00",
+      "views": "49.2k",
+      "link": "https://www.youtube.com/embed/ThmIv7IT3v4?si=bORC4PfyrlgrUQ4r",
+      "thumbnail": "\thttps://i.ytimg.com/vi/ThmIv7IT3v4/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLDvCG2MIN698y3hCNBNLMJm3tim0Q",
+      "id": 10
+    },
+    {
+      "title": "ব্যবহার করুন আপনার অকল্পনীয় চিন্তা শক্তি ! | Mind Power and the Creative Power of Thoughts",
+      "description": "পাওয়ার অব থটস | Mind Power and the Creative Power of Thoughts\n\nFor business, Contact: voiceofdhaka.com.bd@gmail.com\n\nMind Power and the Creative Power of Thoughts, Explained\n----------------------------------------------------------------------------\n\nSkyBuybd app link: https://skybuybd.com/to/vap3\nSkyBuybd Website Link: https://skybuybd.com/to/vdw3\n\n----------------------------------------------------------------------------\n\nTo Subscribe to Voice of Dhaka: https://tinyurl.com/y39h9jon \nFollow Voice of Dhaka on Facebook: https://tinyurl.com/yy6yjjm4 \nFollow Voice of Dhaka on Twitter:  \n\n / voice_dhaka  ",
+      "author": "Voice Of Dhaka",
+      "date": "Aug 8, 2023",
+      "duration": "10:08",
+      "views": "477.2k",
+      "link": "https://www.youtube.com/embed/Q31_U9taK3k?si=ru1gTU5qKAz-SamD",
+      "thumbnail": "https://i.ytimg.com/vi/Q31_U9taK3k/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLAx7bERVwFyKdMT8NfL2BaBjl3DQQ",
+      "id": 11
+    }
+  ]
 }
