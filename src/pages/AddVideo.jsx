@@ -33,8 +33,6 @@ export default function AddVideo() {
 		error: gettingError,
 	} = useGetVideoQuery(id, { skip: !id });
 
-	console.log(video);
-
 	const [data, setData] = useState({
 		title: '',
 		description: '',

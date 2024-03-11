@@ -2,13 +2,13 @@ import { useGetRelatedVideosQuery } from '../features/apiSlice/apiSlice';
 import Error from './Error';
 import RelatedVideo from './RelatedVideo';
 
-export default function RelatedVideos({ title }) {
+export default function RelatedVideos({ title, id }) {
 	const {
 		data: relatedVideos,
 		isLoading,
 		isError,
 		error,
-	} = useGetRelatedVideosQuery(title);
+	} = useGetRelatedVideosQuery({ title, id });
 
 	return isLoading ? (
 		<p>Loading...</p>
