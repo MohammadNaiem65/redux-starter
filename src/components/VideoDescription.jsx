@@ -1,8 +1,29 @@
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { deleteImg, editImg } from '../assets';
+import { useDeleteVideoMutation } from '../features/apiSlice/apiSlice';
+import Error from './Error';
 
 export default function VideoDescription({ video }) {
 	const { id, title, description, date } = video;
+
+	const navigate = useNavigate();
+	const [deleteVideo, { isSuccess, isError, error }] =
+		useDeleteVideoMutation();
+
+	const handleDeleteVideo = () => {
+		if (id) {
+			deleteVideo(id);
+		}
+	};
+
+	// redirect user after deleting video
+	useEffect(() => {
+		if (isSuccess) {
+			navigate('/');
+		}
+	});
 
 	return (
 		<section>
@@ -36,12 +57,25 @@ export default function VideoDescription({ video }) {
 								alt='Delete'
 							/>
 						</div>
-						<div className='text-sm leading-[1.7142857] text-slate-600 cursor-pointer'>
+						<button
+							className='text-sm leading-[1.7142857] text-slate-600 cursor-pointer'
+							onClick={handleDeleteVideo}>
 							Delete
-						</div>
+						</button>
 					</div>
 				</div>
 			</div>
+
+			{isError && (
+				<Error
+					className='mt-4 mx-auto'
+					message={
+						error?.message
+							? error?.message
+							: 'An error occurred while deleting the video.'
+					}
+				/>
+			)}
 
 			<div className='mt-4 text-sm text-[#334155] dark:text-slate-400'>
 				{description}

@@ -12,17 +12,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg"
     },
     {
-      "id": 2,
-      "title": "VS Code Snippets - Boost your productivity with User Snippets",
-      "description": "আমরা যখন Visual Studio Code Editor এ কাজ করি তখন অহরহ ব্যবহৃত কোড ব্লক গুলো আমাদের কে বারবার টাইপ করতে হয় এবং সামগ্রিকভাবে চিন্তা করলে এরকম ছোট ছোট ম্যনুয়াল কাজ আমাদের productivity অনেকাংশেই কমিয়ে দেয়। VS Code এর বিল্ট ইন ইউজার স্নিপেট ফিচারের মাধ্যমে আমরা কমন কাজগুলো স্নিপেট আকারে সাজিয়ে রেখে দিতে পারি এবং শর্টকাট কমান্ডের মাধ্যমে বড় বড় কোড ব্লক গুলো নিয়ে আসতে পারি। এই ভিডিওতে আপনারা এটাই জানতে পারবেন যে কিভাবে আমরা Visual Studio Code Editor এ কাস্টম স্নিপেট লিখতে পারি।",
-      "author": "Learn with Sumit",
-      "date": "April 25, 2022",
-      "duration": "10:12",
-      "views": "2.1k",
-      "link": "https://www.youtube-nocookie.com/embed/N-U6AVcIPy4",
-      "thumbnail": "https://i3.ytimg.com/vi/N-U6AVcIPy4/maxresdefault.jpg"
-    },
-    {
       "title": "Tailwind CSS 3 tutorial - Upgrade to Tailwind 3 | Tailwind CSS Bangla Tutorial",
       "description": "Tailwind CSS v3.0 came with incredible performance gains, huge workflow improvements, and a seriously ridiculous number of new features. In this tutorial - I have tried to explain different new features of Tailwind CSS version 3, how to install tailwind css 3, how to upgrade from tailwind v2 to v3 etc.",
       "author": "Learn with Sumit",
@@ -54,17 +43,6 @@
       "views": "2.1k",
       "link": "https://www.youtube-nocookie.com/embed/4tV1Mfi4fMA",
       "thumbnail": "https://i3.ytimg.com/vi/4tV1Mfi4fMA/maxresdefault.jpg"
-    },
-    {
-      "id": 6,
-      "title": "React Router DOM v6 Bangla Tutorial - Breaking Changes - React Router 6 vs 5",
-      "description": "In this React Router DOM v6 Bangla tutorial, you will learn how to install react router dom 6, what are the breaking changes in react router 6, difference between react router 6 vs 5, how to upgrade from react router v5 to react router v6. ",
-      "author": "Learn with Sumit",
-      "date": "Nov 08, 2021",
-      "duration": "10:12",
-      "views": "2.1k",
-      "link": "https://www.youtube-nocookie.com/embed/34tjWL9wi4g",
-      "thumbnail": "https://i3.ytimg.com/vi/34tjWL9wi4g/maxresdefault.jpg"
     },
     {
       "id": 7,
@@ -120,6 +98,17 @@
       "link": "https://www.youtube.com/embed/Q31_U9taK3k?si=ru1gTU5qKAz-SamD",
       "thumbnail": "https://i.ytimg.com/vi/Q31_U9taK3k/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLAx7bERVwFyKdMT8NfL2BaBjl3DQQ",
       "id": 11
+    },
+    {
+      "title": "What's new in Tailwind v4 - Tailwind is now 10x faster!",
+      "description": "Discover the latest innovations in Tailwind CSS with our comprehensive guide to version 4! From enhanced utility classes to streamlined customization options, this video covers everything you need to know about the exciting updates. Explore new features like new engine, unified toolchain, modern design, composable variants, zero configuration content detection, CSS-first configuration etc. Whether you're a seasoned developer or just getting started, this tutorial will elevate your web design game. Stay ahead of the curve and revolutionize your workflow with Tailwind v4.",
+      "author": "Sumit Saha",
+      "date": "Mar 11, 2024",
+      "duration": "17:06",
+      "views": "6.1k",
+      "link": "https://www.youtube.com/embed/THeGVRJwIYM?si=1E38coI01VYyRnIf",
+      "thumbnail": "https://i.ytimg.com/vi/THeGVRJwIYM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDn5XHBfva6NObegQZyK2QizQbb4w",
+      "id": 12
     }
   ]
 }
